@@ -40,8 +40,7 @@ class MeatTimer(ctk.CTk):
         self.temp_label = ctk.CTkLabel(self, text="Temperature (°F)")
         self.temp_label.pack(pady=(10, 0))
 
-        self.temp_entry = ctk.CTkEntry(self)
-        self.temp_entry.pack(pady=(0, 10))
+        self.temp_entry = ctk.CTkEntry(selfelf.temp_entry.pack(pady=(0, 10))
 
         self.submit_button = ctk.CTkButton(self, text="Submit", command=self.calculate_time)
         self.submit_button.pack(pady=(10, 0))
